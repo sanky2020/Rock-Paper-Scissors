@@ -2,7 +2,7 @@ Wrote a logic for the game ROCK, PAPER , & SCISSOR.
 
 The task was very interesting as we had to implement all that we have learnt so far.
 Created a Welcome Message for this GAME in the form of Alert.
-Below is the step by step list of the actions taken;
+Below is the step by step list of the actions taken:
 
 1) Firstly created a function for the computer to give random inputs as per the game requirement by calling respective Random numbers from (1 to 3) and assigning them with their particular values, that is;
  1 = ROCK, 2 = PAPER, & 3 = SCISSOR respectively.
