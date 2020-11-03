@@ -30,9 +30,9 @@
 
         playerSelection = playerSelection.toLowerCase();//converting playerSelection option to lowercase for making it case insensitive to compare further.
 
-        if( playerSelection=="rock" && computerSelection=="scissor" || // checking who won against whom as per the game's rule
-        playerSelection=="paper" && computerSelection=="rock" ||
-        playerSelection=="scissor" && computerSelection=="paper"){
+        if( playerSelection=="rock" && computerSelection=="scissor" || // checking who won against whom as per the game's rule.
+        playerSelection=="paper" && computerSelection=="rock" || 
+        playerSelection=="scissor" && computerSelection=="paper"){ //Implementing the game's logic by making the use of Logical OR and Logical AND.
 
         win++; // incrementing the win variable by 1 each time after winning
         return ("You won");
