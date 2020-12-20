@@ -1,0 +1,58 @@
+#container{
+    background-color: cornflowerblue;
+    height: 100%;
+    width: 100%;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+#rock{
+    height: 200px;
+    width: 350px;
+    font-family: fantasy;
+    font-size: 50px;
+    border-width: 10px;
+    border-radius: 40px;
+    
+}
+#paper{
+    height: 200px;
+    width: 350px;
+    font-family: fantasy;
+    font-size: 50px;
+    border-width: 10px;
+    border-radius: 40px;
+    
+}
+#scissor{
+    height: 200px;
+    width: 350px;
+    font-family: fantasy;
+    font-size: 50px;
+    border-width: 10px;
+    border-radius: 40px;
+    
+}
+#reset{
+    height: 80px;
+    width: 200px;
+    font-family: fantasy;
+    font-size: 30px;
+    border-width: 8px;
+    border-radius: 30px;
+}
+#playagain{
+    height: 80px;
+    width: 200px;
+    font-family: fantasy;
+    font-size: 30px;
+    border-width: 8px;
+    border-radius: 30px;
+}
+#result{
+    background-color: rgb(250, 246, 4);
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
