@@ -38,11 +38,6 @@ function computerPlay(){ //function for the computer to select (rock/paper/sciss
             return;
         }        
 }
-        // const container=document.querySelector('#container');
-        // const div=document.createElement('div');
-        // container.appendChild(div);
-        
-
         const rock= document.querySelector('#rock');
         rock.addEventListener('click',()=>{
             playerOption="rock";
@@ -87,7 +82,6 @@ if(win==5 ||lose==5){
     if(win>lose){       //applying condition to decide whether you won or lost
         result +=("<br><br>"+"Result : YOU WON");
 } 
-
 else {    
     result +=("<br><br>"+"Result : YOU LOST");
 }
