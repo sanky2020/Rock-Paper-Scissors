@@ -13,14 +13,14 @@ function computerPlay(){ //function for the computer to select (rock/paper/sciss
         else{ return "scissor";} //assigned the remaining number to "scissor"
     }
 
-    let win=0,lose=0,tie=0,result,display; //defining variables globally (win,lose,tie) and declaring them with the value 0
+    let win=0,lose=0,tie=0,result; //defining variables globally (win,lose,tie) and declaring them with the value 0
     
     function playRound(playerSelection, computerSelection) {
 
         if( playerSelection=="rock" && computerSelection=="scissor" || //Setting up game's rule.
         playerSelection=="paper" && computerSelection=="rock" || 
         playerSelection=="scissor" && computerSelection=="paper"){ 
-            win++; 
+	    win++; 
             result= ("You selected"+" "+playerSelection+ " & Computer selected"+" "+computerSelection+ "<br><br> " + playerSelection+ " beats "+ computerSelection+"<br><br>"+ "Player = "+ win +", "+"Computer = "+lose+", "+" Tie = "+tie);
             document.getElementById('result').innerHTML= result;
             return;
@@ -59,11 +59,17 @@ function computerPlay(){ //function for the computer to select (rock/paper/sciss
         const reset= document.querySelector('#reset');
         reset.addEventListener('click',() =>{
             win=0,lose=0,tie=0;
+            result ="Result";
+            document.getElementById('result').innerHTML= result;
+            return;
         });
 
         const playagain= document.querySelector('#playagain');
         playagain.addEventListener('click',() =>{
             win=0,lose=0,tie=0;
+            result ="Result";
+            document.getElementById('result').innerHTML= result;
+            return;
         });
     
 function game(){ //main function ()
@@ -82,10 +88,11 @@ if(win==5 ||lose==5){
     if(win>lose){       //applying condition to decide whether you won or lost
         result +=("<br><br>"+"Result : YOU WON");
 } 
+
 else {    
     result +=("<br><br>"+"Result : YOU LOST");
 }
 document.getElementById('result').innerHTML= result;
 return;
 }
-}
+} 
