@@ -4,7 +4,7 @@
     width: 100%;
     font-family: fantasy;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 #rock{
@@ -58,4 +58,7 @@
 }
 button:hover{
     transform: scale(1.1);
+}
+p{
+    font-size: 20px;
 }
